@@ -2,54 +2,67 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:site_name" content="Sorteo Galaxy S10">
-  <meta property="og:title" content="Sorteo Galaxy S10" />
-  <meta property="og:description" content="Martes 5 de Mayo" />
-  <meta property="og:image" itemprop="image" content="https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e96910c66f397fdcf6a2b1b/screenshot.png">
-  <meta property="og:type" content="website" />
-  <meta property="og:updated_time" content="1440432930" />
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:site_name" content="Sorteo Galaxy S10">
+    <meta property="og:title" content="Sorteo Galaxy S10" />
+    <meta property="og:description" content="Martes 5 de Mayo" />
+    <meta property="og:image" itemprop="image" content="https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e96910c66f397fdcf6a2b1b/screenshot.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="1440432930" />
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if IE]>
+    <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <p class="title">NÚMEROS DISPONIBLES</p>
-      <div class="number-cont justify-content-center">
-        <div class="row" id="grid"></div>
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="title">NÚMEROS DISPONIBLES</p>
+                <div class="number-cont justify-content-center">
+                    <div class="row" id="grid"></div>
+                    <div class="stats">
+                        <div id="disponibles">Disponibles: <span></span></div>
+                        <div id="vendidos">Vendidos: <span></span></div>
+                    </div>
+                </div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+            </div>
+        </div>
+    </div>
+    <!-- Add your site or application content here -->
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
